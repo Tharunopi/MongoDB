@@ -1,0 +1,21 @@
+mangodb stores the data in a format known as BSON
+
+structure - 
+
+    {
+        field_1: field_1 value, 
+        field_2: field_2 value,
+        field_3: field_3 value,
+        ....
+        field_n: field_n value
+    }
+
+
+datatypes - 
+    integer - 32
+    string - "Tharun"
+    array - [1, 2, 3, "Four"]
+    boolean - true or false
+    Null - null
+    date - new Date() or "2024-02-15"
+    

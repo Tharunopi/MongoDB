@@ -1,0 +1,22 @@
+two types of functions is available to insert values
+    - insertOne()
+    - insertMany()
+
+insertOne() :-
+    used to insert only one value at a time
+
+    syntax - db.document_name.insertOne({fields..})
+
+    eg :-
+        db.students.insertOne({name: "Tharun", age: 21})
+
+insertMany() :- 
+    used to insert more than one values at a time
+
+    syntax - db.document_name.insertMany([{fields}, {fields}, {fields}])
+
+    eg :-
+        db.students.insertMany([{name: "Tharun", age: 21},
+                                {name: "Tharun", age: 21},
+                                {name: "Tharun", age: 21}])
+

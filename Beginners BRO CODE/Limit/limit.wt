@@ -1,0 +1,6 @@
+using limit() we can able to limit the number of documents displayed
+
+syntax - db.document.find().limit(no of documents to be displayed)
+
+eg :-
+    db.students.find().limit(3)

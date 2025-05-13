@@ -1,0 +1,12 @@
+syntax - use 'database name'
+
+eg :- 
+    use school
+
+create a connection to make it as valid 
+
+syntax - db.school.createConnection("document name")
+
+eg :-
+    db.school.createConnection("students")
+    

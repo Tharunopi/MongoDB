@@ -1,0 +1,6 @@
+used to skip the n number of results 
+
+syntax - db.document.find().skip(no of documents to be skipped)
+
+eg :-
+    db.students.find().skip(3)

@@ -1,0 +1,13 @@
+used to find in documents 
+
+syntax - db.document.find({query}, {projection})
+
+query - the documents that are identical to query 
+
+    eg :- 
+        db.students.find({name: "Monkey D Luffy"})
+
+projection - the fields that are wanted to displayed
+
+    eg :- 
+        db.students.find({}, {_id: false, name: true})
