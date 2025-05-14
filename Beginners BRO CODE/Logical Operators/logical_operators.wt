@@ -1,0 +1,14 @@
+$and - returns true if all are true
+$or - returns true if any one are true
+$not - returns true if all are false
+$nor - returns true if any one are false
+
+common syntax 
+    - db.collections.find(
+        {
+            $and: [
+                {name: "Tharun"},
+                {age: {$gt: 34}}
+                ]
+        }
+    )

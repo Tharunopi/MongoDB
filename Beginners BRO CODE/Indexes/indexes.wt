@@ -1,0 +1,8 @@
+create index:
+    - db.collections.createIndex({ <field to create as Index> })
+
+get all index:
+    - db.collections.getIndexes()
+
+drop an index:
+    - db.collections.dropIndex({ <name of the index> })

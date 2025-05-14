@@ -1,0 +1,13 @@
+two types of fuctions are available to update a document
+    - db.collections.updateOne({ <filter> }, { <values to update> })
+    - db.collections.updateMany({ <filter> }, { <values to update> })
+
+$set - is used to set value to a filed 
+
+    syntax - db.collections.updateOne({name: "Tharun"}, {$set: {age: 22}})
+
+$unset - is used to exclude value from a filed 
+
+    syntax - db.collections.updateOne({name: "Tharun"}, {$unset: {age: ""}})
+
+    

@@ -1,0 +1,6 @@
+there are two types of functions available to delete a document
+
+    - db.collections.deleteOne({ <filter> })
+    - db.collections.deleteMany({ <filter> })
+
+    

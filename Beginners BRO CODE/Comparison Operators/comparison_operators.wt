@@ -1,0 +1,15 @@
+$eq - equal to
+$ne - not equal to
+$lt - less than
+$lte - less than equal to
+$gt - greater than
+$gte - greater than equal to
+$in - in a list 
+$nin - not in a list
+
+common syntax 
+    - db.collections.find(
+        {
+            name: {$in: ["Tharun", "Luffy", "Zoro"]}
+        }
+    )
